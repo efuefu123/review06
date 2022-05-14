@@ -1,0 +1,20 @@
+// キャプションブロック
+[data-type="loos/cap-block"] {
+
+    .cap_box_ttl {
+
+        .rich-text {
+            min-width: 1em;
+        }
+
+        &[data-has-icon] .rich-text {
+            padding-right: 4px;
+        }
+
+        &:not([data-has-icon]) .rich-text {
+            display: block;
+            width: 100%;
+        }
+    }
+
+}
