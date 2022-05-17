@@ -1,11 +1,8 @@
 .p-news-card__image {
 	width: 100%;
-	height: rem(170.4375);
+	height: rem(200);
 	object-fit: cover;
 	object-position: center;
-	@include mq('tab') {
-		// height: rem(196.875);
-	}
 }
 .p-news-card__body {
 	padding: rem(22.5) rem(23) rem(35);

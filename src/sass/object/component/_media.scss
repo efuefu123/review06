@@ -84,8 +84,8 @@
 -----------------------------------*/
 .c-media__flow {
 	background-color: #ffffff;
-	border-radius: rem(6);
-	border: rem(2) solid #0a0666;
+	border-radius: rem(5);
+	border: rem(1) solid #0a0666;
 	margin: rem(34) auto 0;
 	padding-top: rem(22);
 	padding-bottom: rem(32);
@@ -94,7 +94,7 @@
 	@include mq('tab') {
 		max-width: rem(1100);
 		padding: rem(25) rem(87) rem(60);
-		box-shadow: 0 rem(4) rem(7) rgba(0, 0, 0, 0.16);
+		box-shadow: 0 rem(3) rem(6) rgba(0, 0, 0, 0.16);
 		position: relative;
 	}
 }

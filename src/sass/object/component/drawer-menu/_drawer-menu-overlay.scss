@@ -17,7 +17,4 @@
 }
 .c-drawer-menu-overlay.is-active {
 	display: block;
-	@include mq('tab') {
-		display: none;
-	}
 }
